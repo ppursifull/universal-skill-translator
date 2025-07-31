@@ -1,0 +1,31 @@
+{
+  "tiered_example": {
+    "bins": [
+      { "label": "Bronze", "p_min": 0.00, "p_max": 0.50 },
+      { "label": "Silver", "p_min": 0.50, "p_max": 0.80 },
+      { "label": "Gold", "p_min": 0.80, "p_max": 0.95 },
+      { "label": "Platinum", "p_min": 0.95, "p_max": 0.99 },
+      { "label": "Diamond", "p_min": 0.99, "p_max": 1.00 }
+    ]
+  },
+  "continuous_example": {
+    "points": [
+      { "value": 0, "p": 0.00 },
+      { "value": 50, "p": 0.50 },
+      { "value": 80, "p": 0.80 },
+      { "value": 95, "p": 0.95 },
+      { "value": 99, "p": 0.99 },
+      { "value": 100, "p": 1.00 }
+    ]
+  },
+  "continuous_lower_better_example": {
+    "points": [
+      { "value": 100, "p": 0.99 },
+      { "value": 80, "p": 0.95 },
+      { "value": 60, "p": 0.80 },
+      { "value": 40, "p": 0.50 },
+      { "value": 20, "p": 0.20 },
+      { "value": 0, "p": 0.01 }
+    ]
+  }
+} 

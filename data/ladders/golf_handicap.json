@@ -1,0 +1,24 @@
+{
+  "id": "golf_handicap",
+  "displayName": "Golf Handicap",
+  "type": "continuous_lower_is_better",
+  "unitsLabel": "Handicap",
+  "description": "USGA golf handicap index (lower is better)",
+  "points": [
+    { "value": 36, "p": 0.99 },
+    { "value": 30, "p": 0.95 },
+    { "value": 25, "p": 0.90 },
+    { "value": 20, "p": 0.80 },
+    { "value": 18, "p": 0.75 },
+    { "value": 15, "p": 0.65 },
+    { "value": 12, "p": 0.55 },
+    { "value": 10, "p": 0.45 },
+    { "value": 8, "p": 0.35 },
+    { "value": 6, "p": 0.25 },
+    { "value": 4, "p": 0.15 },
+    { "value": 2, "p": 0.08 },
+    { "value": 0, "p": 0.04 },
+    { "value": -2, "p": 0.02 },
+    { "value": -4, "p": 0.01 }
+  ]
+} 

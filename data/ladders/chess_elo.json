@@ -1,0 +1,19 @@
+{
+  "id": "chess_elo",
+  "displayName": "Chess (ELO)",
+  "type": "continuous",
+  "unitsLabel": "ELO",
+  "description": "Chess ELO rating system",
+  "points": [
+    { "value": 800, "p": 0.05 },
+    { "value": 1000, "p": 0.15 },
+    { "value": 1200, "p": 0.30 },
+    { "value": 1400, "p": 0.50 },
+    { "value": 1600, "p": 0.70 },
+    { "value": 1800, "p": 0.85 },
+    { "value": 2000, "p": 0.95 },
+    { "value": 2200, "p": 0.98 },
+    { "value": 2400, "p": 0.995 },
+    { "value": 2600, "p": 0.999 }
+  ]
+} 
